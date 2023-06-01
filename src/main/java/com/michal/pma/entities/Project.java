@@ -11,6 +11,7 @@ public class Project {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long projectID;
+	
 	private String name;
 	private String stage;
 	private String description;
