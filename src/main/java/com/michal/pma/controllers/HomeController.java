@@ -26,7 +26,7 @@ public class HomeController {
 		List<Project> projects = proRepo.findAll();
 		model.addAttribute("projects", projects);
 		List<Employee> employee = empRepo.findAll();
-		model.addAttribute("projects", projects);
+		model.addAttribute("employee", employee);
 		return "main/home";
 	}
 	
