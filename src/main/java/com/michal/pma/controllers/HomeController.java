@@ -29,5 +29,4 @@ public class HomeController {
 		model.addAttribute("employee", employee);
 		return "main/home";
 	}
-	
 }
